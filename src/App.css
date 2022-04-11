@@ -2,6 +2,47 @@
   text-align: center;
 }
 
+.text01 {
+  height: 100%;
+  text-align: center;
+  
+  background-image: url("https://th.bing.com/th/id/R.bea070275b52c725521ae013f4ebe77e?rik=qxaePWzi2NLNgw&riu=http%3a%2f%2fstatic6.depositphotos.com%2f1025794%2f562%2fv%2f950%2fdepositphotos_5629942-stock-illustration-pastel-citrus-fruit-seamless-pattern.jpg&ehk=MhXxAEEahrg5k9pZqJX3A6VlyDhE6V8UyqCT7v2S8XU%3d&risl=&pid=ImgRaw&r=0")
+
+   } 
+.text-cards {
+  color: #024554;
+  
+  padding: 20%;
+  text-align: center;
+}
+
+
+
+
+.cards-padding {
+  padding-top: 11%;
+}
+
+
+.home-text {
+color: #03A696;
+ font-size: 70px;
+     text-align: center;
+     padding-left: 12%;
+     padding-top: 14%;
+     padding-right: 12%;
+     padding-bottom: 3%;
+     font-style:oblique;
+     
+}
+
+.home-link {
+text-align: center;
+font-size: xx-large;
+padding-bottom: 11%;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +55,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F2E0C9;
   min-height: 100vh;
+   
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  color: black;
 }
 
 .App-link {
@@ -36,3 +75,77 @@
     transform: rotate(360deg);
   }
 }
+
+.login {
+  background-color: #FFEBB7;
+        color: #ffffff;
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        line-height: 30px;
+
+}
+
+.bg-home {
+  background-color:transparent;
+  text-align: center;
+}
+
+
+.form {
+   position: absolute;
+     text-align: left;
+  top:51%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 900px;
+  padding: 50px;
+  background-color: #ffffff;
+ 
+  border-radius: 10px;
+}
+
+.color-nav{
+  background-color: #ffffff;
+  
+}
+img {
+  
+ max-width: 100%;
+  
+}
+
+.bg-acc {
+  background-color: #F2F2F2;
+  color: black;
+}
+
+.padding-home {
+  
+  padding-top: 5%;
+  padding-left: 22%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
+
+.bgg-home {
+  background-color: #FFEBB7;
+}
+
+.review-text {
+color: #F29188;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.text-idk {
+  color: #F29188;
+  padding-top: 1%;
+  padding-left: 45%;
+  
+}
+

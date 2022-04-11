@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import About from './pages/About';
+import Paths from './paths';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Tabs from './TABS';
 
 ReactDOM.render(
   <React.StrictMode>
+ 
     <App />
   </React.StrictMode>,
   document.getElementById('root')
